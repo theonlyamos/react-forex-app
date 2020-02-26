@@ -8,7 +8,7 @@ import Footer from '../../common/components/footer';
 import SocketService from '../../common/services/socket.service';
 import io from 'socket.io-client/dist/socket.io';
 
-consts { IO_HOST } = process.env;
+const { IO_HOST } = process.env;
 
 import './MainLayout.css';
 
