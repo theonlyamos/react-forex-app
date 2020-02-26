@@ -3,7 +3,8 @@ import AuthService from './common/services/auth.service';
 import { push as routerPush } from 'react-router-redux';
 
 const { REACT_APP_API_HOST, REACT_APP_API_PORT } = process.env;
-axios.defaults.baseURL = window.location.protocol + `//${REACT_APP_API_HOST}:${REACT_APP_API_PORT}`;
+const PROTOCOL = window.location.protocol;
+axios.defaults.baseURL = `${PROTOCOL}//${REACT_APP_API_HOST}:${REACT_APP_API_PORT}`;
 
 axios.interceptors.request.use(
   config => {
