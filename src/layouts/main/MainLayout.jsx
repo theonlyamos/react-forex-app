@@ -27,7 +27,8 @@ class MainLayout extends PureComponent {
   constructor(props) {
     super(props);
     
-    const url = window.location.protocal + IO_HOST;
+    // const url = window.location.protocal + IO_HOST;
+    const url = window.location.hostname
     this.socket = io.connect(url + ':5001');
     const { router, location, setUser } = props;
     RouterService.router = router;
