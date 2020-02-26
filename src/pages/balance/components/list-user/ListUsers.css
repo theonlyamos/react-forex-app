@@ -1,0 +1,8 @@
+.user__table .button{
+  padding: 11px 20px;
+}
+
+.user__table{
+  height: 500px;
+  overflow: scroll;
+}

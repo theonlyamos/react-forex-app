@@ -1,0 +1,26 @@
+.balance.event-sections {
+  display: inline-block;
+}
+
+.affiliates__header {
+  display: inline-block;
+}
+
+.affiliates__ref {
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .balance .event-section-header {
+    display: block;
+  }
+
+  .balance .event-bet {
+    white-space: nowrap;
+  }
+
+  .balance .event-section-inner.small.affiliates {
+    min-width: 300px;
+    width: 100%;
+  }
+}

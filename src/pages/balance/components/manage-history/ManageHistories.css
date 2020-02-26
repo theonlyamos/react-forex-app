@@ -1,0 +1,11 @@
+.manange__table .button{
+  padding: 5px 5px;
+}
+.d-flex{
+  display: flex;
+}
+
+.manange__table{
+  height: 500px;
+  overflow: scroll;
+}

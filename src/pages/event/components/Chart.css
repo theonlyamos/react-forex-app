@@ -1,0 +1,21 @@
+.chart {
+  padding-bottom: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.chart-content {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12);
+  overflow-x: auto;
+  background-color: rgb(230, 230, 230);
+}
+
+@media (max-width: 767px) {
+  .chart {
+    padding: 10px;
+    padding-bottom: 0;
+  }
+}

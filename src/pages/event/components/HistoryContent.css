@@ -1,0 +1,45 @@
+.event-wrapper-content .event-sections {
+  display: inline-block;
+}
+
+.event-wrapper-content .event-sections:first-child {
+  max-width: calc(50% - 10px);
+  min-width: calc(50% - 10px);
+  margin-right: 10px;
+}
+
+.event-wrapper-content .event-sections:last-child {
+  width: 50%;
+  vertical-align: top;
+}
+
+.event-wrapper-content {
+  width: 100%;
+}
+
+.event-wrapper-content .event-section-content {
+  overflow: initial;
+}
+
+.history-content {
+  width: 100%;
+}
+
+.history-event-bet-section .event-bet > div {
+  width: calc(100% / 9);
+  margin: 0;
+  text-align: center;
+  vertical-align: top;
+}
+
+.user-history-event-bet-section .event-bet > div {
+  width: calc(100% / 8);
+  margin: 0;
+  text-align: center;
+  vertical-align: top;
+}
+
+.user-history-event-bet-section,
+.history-event-bet-section {
+  background-color: rgb(140, 140, 140);
+}

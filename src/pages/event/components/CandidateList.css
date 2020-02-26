@@ -1,0 +1,54 @@
+.candidate-list {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12);
+  overflow: auto;
+  background-color: rgb(204, 0, 204);
+  border-collapse: collapse;
+  padding: 15px 20px 10px;
+}
+
+.candidate-list.max {
+  max-height: 428px;
+}
+
+.candidate-list__header {
+  margin-bottom: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.candidate-list__candidate {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 3px;
+  border: 1px solid rgb(231, 231, 231);
+  display: inline-block;
+  transition: background-color 150ms ease-out, color 150ms ease-out, border-color 150ms ease-out;
+}
+
+.candidate-list__candidate:nth-child(2n) {
+  margin: 0 0 0 10px;
+}
+
+.candidate-list__candidate.active:not(.disabled) {
+  color: #9c27b0;
+  border-color: #9c27b0;
+}
+.candidate-list__candidate.disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  background-color: #eaeaea;
+}
+
+@media (max-width: 767px) {
+  .candidate-list {
+    padding: 10px 10px 10px 20px;
+    overflow: initial;
+  }
+}

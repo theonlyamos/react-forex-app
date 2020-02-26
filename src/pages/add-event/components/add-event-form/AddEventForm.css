@@ -1,0 +1,44 @@
+.add-event-form__add {
+  cursor: pointer;
+  text-align: left;
+  color: #ca2222;
+}
+
+.add-event-form .add-event-form__content {
+  overflow: initial;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+  height: 100%;
+}
+
+.react-datepicker-ignore-onclickoutside {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.add-event-form .input-group > div {
+  display: inline-block;
+}
+
+.add-sub-event {
+  color: #fff;
+  line-height: 2;
+  font-size: 14px;
+  border: none;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+.add-sub-event-form {
+  padding-top: 20px;
+  border-top: 1px solid;
+  border-top-color: #e1e1e1;
+}

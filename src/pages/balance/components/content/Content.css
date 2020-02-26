@@ -1,0 +1,37 @@
+.balance.event-sections {
+  display: inline-block;
+}
+
+.balance.event-sections:first-child {
+  max-width: calc(60% - 10px);
+  min-width: calc(60% - 10px);
+  margin-right: 10px;
+}
+
+.balance.event-sections:last-child {
+  width: 40%;
+  vertical-align: top;
+}
+
+.affiliates__header {
+  display: inline-block;
+}
+
+.affiliates__ref {
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .balance .event-section-header {
+    display: block;
+  }
+
+  .balance .event-bet {
+    white-space: nowrap;
+  }
+
+  .balance .event-section-inner.small.affiliates {
+    min-width: 300px;
+    width: 100%;
+  }
+}

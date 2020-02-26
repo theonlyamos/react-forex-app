@@ -1,0 +1,125 @@
+.header {
+  background-color: #232323;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0 1px 8px 0 rgba(0, 0, 0, 0.12);
+  position: fixed;
+  z-index: 20;
+}
+
+.header__content {
+  height: 100%;
+}
+
+.header_block {
+  padding-top: 15px;
+  height: 100%;
+  display: inline-block;
+}
+
+.header_logo {
+  max-width: 190px;
+  max-height: 40px;
+  margin-left: 5px;
+}
+
+.header .btn {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #fff;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.header__user > span {
+  color: #fff;
+}
+
+.header_link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .header {
+    height: 60px;
+  }
+
+  .header_logo {
+    max-width: 100px;
+    max-height: 30px;
+  }
+
+  .header_block.absolute {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+  }
+
+  .m-l--50 {
+    margin-left: 50px;
+  }
+
+  .header .btn {
+    margin-right: 5px;
+    margin-left: 5px;
+    max-height: 30px;
+    padding: 0 20px;
+    line-height: 30px;
+  }
+
+  .header .btn:first-child {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .header .btn:last-child {
+    margin-right: 10px;
+  }
+
+  /* Position and sizing of burger button */
+  .fa-bars {
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    left: 0;
+    top: 0;
+    margin: 20px 15px;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .bm-burger-button {
+    display: none;
+  }
+
+  /* Color/shape of close button cross */
+  .bm-cross {
+    display: none;
+  }
+
+  .bm-burger-bars {
+    background-color: white;
+  }
+
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .bm-item-list {
+    padding: 0;
+  }
+
+  .bm-menu {
+    overflow: initial !important;
+    min-height: 100vh;
+  }
+  .bm-menu-wrap {
+    max-width: 250px;
+  }
+}

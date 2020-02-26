@@ -1,0 +1,40 @@
+.add-event-content .event-sections {
+  display: inline-block;
+}
+
+.add-event-content .event-sections:first-child {
+  max-width: calc(60% - 10px);
+  min-width: calc(60% - 10px);
+  margin-right: 10px;
+}
+
+.add-event-content .event-sections:last-child {
+  width: 40%;
+  vertical-align: top;
+}
+
+.add-event-content {
+  width: 100%;
+}
+
+.add-event-content .add-event-content__section {
+  overflow: initial;
+}
+
+.add-event-content__section {
+  padding: 15px;
+}
+
+@media (max-width: 767px) {
+  .add-event-content {
+  }
+}
+
+.css-10nd86i .css-1aya2g8 {
+  border: 0;
+  background-color: transparent;
+}
+
+.input-group .css-10nd86i {
+  padding: 0;
+}

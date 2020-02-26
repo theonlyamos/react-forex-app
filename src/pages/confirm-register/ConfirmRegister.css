@@ -1,0 +1,12 @@
+.btn-login{
+  text-align: center;
+  width: 100% !important;
+  color: #fff;
+  padding: 10px 15px;
+  display: inline-block;
+  text-decoration: none;;
+}
+
+.lh-20{
+  line-height: 30px !important;
+}

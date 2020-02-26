@@ -1,0 +1,3 @@
+export const SOCKET_CLOSED = 'SOCKET_CLOSED';
+export const EDIT_EVENT = 'EDIT_EVENT';
+export const UPDATE_RESULTS = 'UPDATE_RESULTS';

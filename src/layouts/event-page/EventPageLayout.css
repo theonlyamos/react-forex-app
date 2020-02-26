@@ -1,0 +1,122 @@
+.event-page-layout {
+  height: 100%;
+  width: 100%;
+}
+
+.event-page-layout__header {
+  min-height: 61px;
+  padding: 12.5px 0;
+  text-transform: uppercase;
+  border-bottom: 1.1px solid #d3d3d3;
+}
+
+.event-page-layout__header-item {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #9c27b0;
+  user-select: none;
+  width: 50%;
+  line-height: 38px;
+}
+
+.event-page-layout__header-item * {
+  color: #9c27b0;
+  user-select: none;
+  font-size: 12px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.event-page-layout__event-bcd {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.event-page-layout .event-timers {
+  display: inline-block;
+}
+
+.event-page-layout__content {
+  padding: 10px;
+}
+
+.event-page-layout__name {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+.event-page-layout__update-event .btn,
+.event-page-layout__update-result .btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  line-height: 14px;
+}
+
+.event-page-layout__update-event {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.event-end {
+  margin: 0 5px;
+}
+
+@media (max-width: 767px) {
+  .event-wrapper-content {
+    padding-top: 5px;
+  }
+
+  .event-page-layout__header {
+    height: auto;
+    min-height: 40px;
+    padding: 5px 10px;
+  }
+
+  .event-page-layout__header .event-page-layout__header-item {
+    font-size: 12px;
+    line-height: 17px;
+    padding: 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    overflow: initial;
+  }
+
+  .event-end {
+    margin: 0;
+    display: block;
+  }
+
+  .event-page-layout__name {
+    line-height: 34px;
+  }
+
+  .event-page-layout__name {
+    margin-right: 5px;
+  }
+
+  .event-page-layout__content {
+    padding: 0;
+  }
+
+  .event-page-layout .event-timers {
+    display: block;
+  }
+
+  .event-page-layout__update-event,
+  .event-page-layout__update-result {
+    float: right;
+    margin-right: 0;
+  }
+
+  .event-page-layout__event-bcd {
+    padding: 0;
+  }
+}

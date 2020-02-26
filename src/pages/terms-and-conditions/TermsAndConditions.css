@@ -1,0 +1,9 @@
+.terms-and-conditions-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  min-height: inherit;
+  height: inherit;
+  background-color: white;
+}

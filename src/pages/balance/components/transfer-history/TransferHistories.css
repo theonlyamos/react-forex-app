@@ -1,0 +1,100 @@
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.histories__table{
+	height: 500px;
+  overflow: scroll;
+}
+
+.form-group{
+	width: 100%;
+	display: flex;
+}
+
+.form-group .form-control, .DayPickerInput input{
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.col-6, .DayPickerInput input{
+	margin: 8px 0;
+	width: 50% important;
+	margin-right: 10px;
+}
+
+.col-12{
+  width: 100% important;
+}
+
+.button {
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.histories__table .button{
+  padding: 11px 20px;
+}
+
+.btn-success{
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+.btn-danger{
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray !important;
+  opacity: 1; /* Firefox */
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: gray !important;
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+  color: gray !important;
+}
+
+.InputFromTo .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background-color: #f0f8ff !important;
+  color: #4a90e2;
+}
+.InputFromTo .DayPicker-Day {
+  border-radius: 0 !important;
+}
+.InputFromTo .DayPicker-Day--start {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+.InputFromTo .DayPicker-Day--end {
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+.InputFromTo .DayPickerInput-Overlay {
+  width: 550px;
+}
+.InputFromTo-to .DayPickerInput-Overlay {
+  margin-left: -198px;
+}

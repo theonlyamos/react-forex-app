@@ -1,0 +1,33 @@
+.login .small-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+@media (max-width: 767px) {
+  .container.login {
+    position: relative;
+  }
+  .login .input-group > *:not(label) {
+    width: 70%;
+  }
+
+  .login .small-container {
+    width: calc(100% - 20px);
+  }
+
+  .login .input-group > label {
+    width: 30%;
+  }
+}
+
+@media (max-width: 320px) {
+  .login .input-group > *:not(label) {
+    width: 65%;
+  }
+
+  .login .input-group > label {
+    width: 35%;
+  }
+}
