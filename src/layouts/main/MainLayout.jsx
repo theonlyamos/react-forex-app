@@ -8,9 +8,10 @@ import Footer from '../../common/components/footer';
 import SocketService from '../../common/services/socket.service';
 import io from 'socket.io-client/dist/socket.io';
 
-const { IO_HOST } = process.env;
 
 import './MainLayout.css';
+
+const { IO_HOST } = process.env;
 
 class MainLayout extends PureComponent {
   static propTypes = {
