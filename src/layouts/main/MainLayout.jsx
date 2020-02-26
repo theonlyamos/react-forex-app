@@ -8,6 +8,8 @@ import Footer from '../../common/components/footer';
 import SocketService from '../../common/services/socket.service';
 import io from 'socket.io-client/dist/socket.io';
 
+consts { IO_HOST } = process.env;
+
 import './MainLayout.css';
 
 class MainLayout extends PureComponent {
@@ -23,8 +25,8 @@ class MainLayout extends PureComponent {
 
   constructor(props) {
     super(props);
-
-    const url = window.location.hostname;
+    
+    const url = window.location.protocal + IO_HOST;
     this.socket = io.connect(url + ':5001');
     const { router, location, setUser } = props;
     RouterService.router = router;
