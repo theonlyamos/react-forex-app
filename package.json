@@ -23,7 +23,7 @@
     "recharts": "^1.0.0-beta.10",
     "redux": "^3.7.2",
     "redux-saga": "^0.16.0",
-    "serve": "^6.5.5",
+    "serve": "^10.1.2",
     "socket.io-client": "^2.2.0"
   },
   "scripts": {
