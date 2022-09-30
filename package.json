@@ -20,7 +20,7 @@
     "react-scripts": "1.1.4",
     "react-select": "^2.0.0-beta.2",
     "react-tabs": "^2.2.2",
-    "recharts": "^1.0.0-beta.10",
+    "recharts": "^2.1.14",
     "redux": "^3.7.2",
     "redux-saga": "^0.16.0",
     "serve": "^6.5.5",
